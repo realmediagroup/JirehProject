@@ -21,18 +21,18 @@ const Imagenes = () => {
    ];
 
 
-   return ( 
+   return (
       <div className="w-full">
          <div className="w-full flex justify-center flex-wrap gap-5">
             {
                images.map((img , index)=>{
                   console.log(img.toString())
-                   return <img  className="w-full max-w-[400px]" src={img} />
+                   return <img key={index}  className="w-full max-w-[400px]" src={img} />
                })
             }
          </div>
       </div>
    )
 }
- 
+
 export default Imagenes;
