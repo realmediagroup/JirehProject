@@ -1,5 +1,4 @@
 import { Rubik } from 'next/font/google'
-import HeaderMain from '@/components/layout/HeaderMain'
 import './globals.css'
 
 const rubik = Rubik({
@@ -15,10 +14,9 @@ export default function RootLayout({ children }) {
    return (
       <html lang="es">
          <body className={rubik.className}>
-            
-            <HeaderMain />
-            {children}
-          
+            <main>
+               {children}
+            </main>
          </body>
       </html>
    )

@@ -1,17 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body{
+   width: 100%;
+   height: 100vh;
    background-image: url(/image/back/bodyBack.webp);
    background-position: center;
    background-size: cover;
-   background-repeat: no-repeat;   
-}
-.bg_back{
-   background-color: rgba(255, 255, 255, 0.4);
+   background-repeat: no-repeat;
 }
 
-.slider_img{
-   width: 400px;
-   height: 300px;
+main{
+   width: 100%;
+   height: 100vh;
+   background-color: rgba(255, 255, 255, 0.4);
 }

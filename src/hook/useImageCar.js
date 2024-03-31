@@ -1,7 +1,5 @@
 'use client'
-
 import { useEffect, useState } from 'react'
-
 const useImageCar = () => {
    let min = 1
    let max = 36
