@@ -1,7 +1,7 @@
-import { Rubik } from 'next/font/google'
+import { Sora } from 'next/font/google'
 import './globals.css'
 
-const rubik = Rubik({
+const sora = Sora({
    subsets: ['latin'],
 })
 
@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
    return (
       <html lang="es">
-         <body className={rubik.className}>
+         <body className={sora.className}>
             <main>
                {children}
             </main>
